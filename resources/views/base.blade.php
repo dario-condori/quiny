@@ -235,8 +235,8 @@
                                         <label for="message">Message</label>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <button class="btn btn-warning w-100 py-3" type="submit">Send Message</button>
+                                <div class="col-6">
+                                    <button class="btn btn-warning w-100 py-3 text-dark" type="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
