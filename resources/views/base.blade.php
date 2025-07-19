@@ -41,7 +41,7 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Navbar Start -->
+    <!-- Menu Start -->
     <div class="container-fluid sticky-top" style="background-color: #fee6a4;">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -55,7 +55,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="#what-is" class="nav-item nav-link active">What is?</a>
-                        <a href="about.html" class="nav-item nav-link">Technical specifications</a>
+                        <a href="#technical" class="nav-item nav-link">Technical specifications</a>
                         <a href="#certificates" class="nav-item nav-link">Certificates</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
@@ -64,35 +64,101 @@
             </nav>
         </div>
     </div>
-    <!-- Navbar End -->
+    <!-- Menu End -->
 
-    <!-- Hero Start -->
+    <!-- Home Start -->
     <div id="home" class="container-fluid hero-header mb-5"> {{--bg-primary--}}
         <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h3 class="fw-light text-black animated slideInRight">Favorite quinoa drink ...</h3>
-                    <h3 class="fw-light text-black animated slideInRight">delicius, wholesome, for all ages.</h3>
-                    <h1 class="display-4 animated slideInRight quiny">Quinoa <span class="fw-light text-dark quiny">Love in</span> every drop.</h1>
-                    {{-- <p class="text-white mb-4 animated slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Etiam feugiat rutrum lectus, sed auctor ex malesuada id. Orci varius natoque penatibus et
-                        magnis dis parturient montes.</p> --}}
-                    <a href="" class="btn btn-outline-dark py-2 px-4 animated slideInRight">More...</a>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="quiny">Gluten Free</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Suitable for people with dietary restrictions or preferences.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="quiny">100% Vegan</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Does not contain ingredients of animal origin.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="quiny">Lactose free</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>They do not contain milk or dairy products.</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quiny1.png') }}" alt="">
+                <div class="col-lg-4 wow fadeIn text-center" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quiny2.png') }}">
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-5">
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="quiny">No Sugar added</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>It is a drink without added sugars..</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="quiny">Vitamins</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Contain vitamins for the body.</span>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="btn-square rounded-circle border flex-shrink-0"
+                                style="width: 80px; height: 80px;">
+                                <i class="fa fa-check fa-2x text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="quiny">Proteins</h5>
+                                <hr class="w-25 bg-primary my-2">
+                                <span>Source of natural energy and refueling for athletes.</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Hero End -->
+    <!-- Home End -->
 
-    <!-- About Start -->
+    <!-- what is quiny -->
     <div id="what-is" class="container-fluid py-5">
+        <br><br><br><br>
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-sm-12 col-lg-6 wow fadeIn text-center" data-wow-delay="0.1s">
-                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quiny2.png') }}">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quiny1.png') }}" width="250px">
                 </div>
                 <div class="col-sm-12 col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="quiny mb-4">What is Quiny?</h1>
@@ -106,14 +172,14 @@
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- End -->
 
-    <!-- Feature Start -->
-    <div id="certificates" class="container-fluid py-5">
+    <!-- Especificaciones tecnicas Start -->
+    {{-- <div id="technical" class="container-fluid py-5">
         <div class="container">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="text-primary mb-3"><span class="fw-light text-dark quiny">Certificates Of Our QUINY</span></h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark quiny">Technical specifications</span></h1>
+                <p class="mb-5">Our certifications validate our commitment to quality, sustainability, and addressing the diverse needs and preferences of the global consumer..</p>
             </div>
             <div class="row g-4 align-items-center">
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -195,8 +261,101 @@
                 </div>
             </div>
         </div>
+    </div> --}}
+    <!-- Especificaciones tecnicas end -->
+
+
+    <!-- Certificaciones Start -->
+    <!-- Feature Start -->
+    <div class="container-fluid py-5">
+        
     </div>
     <!-- Feature End -->
+
+
+
+
+    <div id="certificates" class="container-fluid py-5">
+        <br><br><br>
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light quiny">Certificates Of Our QUINY</span></h1>
+                <p class="mb-5">Our certifications validate our commitment to quality, sustainability, and addressing the diverse needs and preferences of the global consumer..</p>
+            </div>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-8">
+                        <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/food_international.png') }}" alt="food_international" width="100%">
+                            </div>
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/green.png') }}" alt="green" width="100%">
+                            </div>
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/vegan.png') }}" alt="vegan" width="100%">
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/brcs.png') }}" alt="brcs" width="100%">
+                            </div>
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/ifs.png') }}" alt="ifs" width="100%">
+                            </div>
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/gluten-free.png') }}" alt="gluten-free" width="100%">
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/kf.png') }}" alt="kf" width="100%">
+                            </div>
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/halal.png') }}" alt="halal" width="100%">
+                            </div>
+                            <div class="btn-square rounded-circle border mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <img src="{{ asset('sitio/img/certifications/biosuisse.png') }}" alt="biosuisse" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-md-12 wow fadeIn text-center" data-wow-delay="0.1s">
+                            <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quiny2.png') }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+
+    <!-- Hero Start -->
+    {{-- <div id="home" class="container-fluid hero-header mb-5"> {{--bg-primary--}}
+        {{-- <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3 class="fw-light text-black animated slideInRight">Favorite quinoa drink ...</h3>
+                    <h3 class="fw-light text-black animated slideInRight">delicius, wholesome, for all ages.</h3>
+                    <h1 class="display-4 animated slideInRight quiny">Quinoa <span class="fw-light text-dark quiny">Love in</span> every drop.</h1>
+                    {{-- <p class="text-white mb-4 animated slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Etiam feugiat rutrum lectus, sed auctor ex malesuada id. Orci varius natoque penatibus et
+                        magnis dis parturient montes.</p> --}}
+                    {{-- <a href="" class="btn btn-outline-dark py-2 px-4 animated slideInRight">More...</a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quiny1.png') }}" width="200px" alt="">
+                </div>
+            </div>
+        </div>
+    </div> --}}
+    <!-- Hero End -->
+
+
+
+    
 
 
     <!-- Contact Start -->
