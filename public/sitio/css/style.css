@@ -438,3 +438,26 @@ img.animated.pulse {
     font-family: 'djadoel';
     color: #bd4a18;
 }
+
+.quiny-black{
+    font-family: 'djadoel';
+    color: #000000;
+}
+
+.home{
+    position: relative;
+    margin-top: -85px;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/fondo-quiny1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.product{
+    position: relative;
+    margin-top: -85px;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/fondo-quiny-product.jpg) center center no-repeat;
+    background-size: cover;
+}
