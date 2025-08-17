@@ -11,6 +11,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 text-center text-lg-start">
+                    <h1 class="display-4 animated slideInRight quiny">What is Quiny?</h1>
                     <h4 class="text-black mb-4 animated slideInRight quiny-black">
                         QUINY is a natural plant-based drink, Crafted from high-quality quinoa, making it a complete protein and 
                         an ideal choice for those seeking a nutritious and balanced diet.
