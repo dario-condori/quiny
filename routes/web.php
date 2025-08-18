@@ -36,3 +36,4 @@ Route::get('/contact-us', function () {
 })->name('contactUs');
 
 Route::post('/guardarMensaje', [ContactoController::class, 'guardarMensaje'])->name('guardarMensaje');
+Route::get('/mensajes', [ContactoController::class, 'mensajes'])->name('mensajes');

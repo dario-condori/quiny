@@ -17,7 +17,7 @@
                     <a href="" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">More...</a>
                 </div>
                 <div class="col-lg-7 text-center">
-                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-home.png') }}">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/foto-home.png') }}">
                 </div>
             </div>
         </div>

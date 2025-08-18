@@ -27,4 +27,10 @@ class ContactoController extends Controller
         return redirect()->route('contactUs')->with('estadoMensaje', 'Send menssage successful..!!!');
     }
 
+    public function mensajes()
+    {
+        $mensajes = Contacto::all();
+        return view('admin.mensajes', compact('mensajes'));
+    }
+
 }

@@ -5,13 +5,11 @@
 @endsection
 
 @section('contenido')
-<br>
-<br>
     <div class="container-fluid bg-primary product mb-5">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-7 text-center">
-                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-product-1.png') }}" width="500">
+                <div class="col-lg-6 text-center">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-product-1.png') }}" width="380">
                 </div>
                 <div class="col-lg-5 text-center text-lg-start">
                     <h1 class="text-black mb-4 animated slideInRight quiny">
@@ -89,7 +87,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-7 text-center">
-                    <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/envase-product-1.png') }}" width="500">
+                    <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/envase-product-1.png') }}" width="380">
                 </div>
                 <div class="col-lg-5 text-center text-lg-start">
                     <h5 class="text-black mb-4 animated slideInRight quiny-black">
@@ -161,7 +159,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-7 text-center">
-                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-product-2.png') }}" width="500">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-product-2.png') }}" width="400">
                 </div>
                 <div class="col-lg-5 text-center text-lg-start">
                     <h1 class="text-black mb-4 animated slideInRight quiny">
@@ -240,7 +238,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-7 text-center">
-                    <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/envase-product-2.png') }}" width="500">
+                    <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/envase-product-2.png') }}" width="400">
                 </div>
                 <div class="col-lg-5 text-center text-lg-start">
                     <h5 class="text-black mb-4 animated slideInRight quiny-black">
@@ -301,10 +299,10 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 text-center">
-                    <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/envase-product-3-4-aviso.png') }}" width="500">
+                    <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/envase-product-3-4-aviso.png') }}" width="400">
                 </div>
                 <div class="col-lg-7 text-center">
-                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-product-3-4.png') }}" width="500">
+                    <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/envase-product-3-4.png') }}" width="400">
                 </div>
             </div>
         </div>
