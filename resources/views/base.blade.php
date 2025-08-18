@@ -29,6 +29,24 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('sitio/css/style.css') }}" rel="stylesheet">
+    <style>
+        .home{
+            position: relative;
+            margin-top: -85px;
+            padding-top: 12rem;
+            padding-bottom: 6rem;
+            background: url({{ asset('sitio/img/fondo-quiny1.jpg') }}) center center no-repeat;
+            background-size: cover;
+        }
+        .product{
+            position: relative;
+            margin-top: -85px;
+            padding-top: 12rem;
+            padding-bottom: 6rem;
+            background: url({{ asset('sitio/img/fondo-quiny-product.jpg') }}) center center no-repeat;
+            background-size: cover;
+        }
+    </style>
     @yield('hojaEstilos')
 </head>
 
