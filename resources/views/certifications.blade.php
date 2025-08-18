@@ -11,18 +11,14 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 text-center text-lg-start">
+                    <h1 class="display-4 animated slideInRight quiny">Certifications</h1>
                     <h4 class="text-black mb-4 animated slideInRight quiny-black">
-                        Our business model is built on
-sustainability and excellence, ensuring
-that every product meets the highest
-quality standards from its origin to
-international markets.
+                        Our business model is built on sustainability and excellence, ensuring that every product meets the highest
+                        quality standards from its origin to international markets.
                     </h4>
                     <h4 class="text-black mb-4 animated slideInRight quiny-black">
-                        Through strategic partnerships with an
-Italian-certified processing facility, we
-guarantee premium quality and food
-safety at every step.
+                        Through strategic partnerships with an Italian-certified processing facility, we guarantee premium quality and food
+                        safety at every step.
                     </h4>
                 </div>
                 <div class="col-lg-7 text-center">
