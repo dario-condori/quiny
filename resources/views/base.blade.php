@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>@yield('nombrePagina', 'Quiny')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
+    <meta content="quiny quinoa drink" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
@@ -30,22 +30,15 @@
     <!-- Template Stylesheet -->
     <link href="{{ asset('sitio/css/style.css') }}" rel="stylesheet">
     <style>
-        .home{
-            position: relative;
-            margin-top: -85px;
-            padding-top: 12rem;
-            padding-bottom: 6rem;
-            background: url({{ asset('sitio/img/fondo-quiny1.jpg') }}) center center no-repeat;
-            background-size: cover;
-        }
-        .product{
+        
+        /*.product{
             position: relative;
             margin-top: -85px;
             padding-top: 12rem;
             padding-bottom: 6rem;
             background: url({{ asset('sitio/img/fondo-quiny-product.jpg') }}) center center no-repeat;
             background-size: cover;
-        }
+        }*/
     </style>
     @yield('hojaEstilos')
 </head>
@@ -64,24 +57,19 @@
     <div class="container-fluid sticky-top" style="background-color: #fee6a4;">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
-                <a href="/" class="navbar-brand">
+                <a href="#home" class="navbar-brand">
                     <img src="{{ asset('sitio/img/logo-quiny.png') }}" width="120" alt="logo-quiny">
-                    {{-- <h1 class="quiny">Quiny</h1>
-                    <h5 class="quiny">Bio Quinoa Drink</h5> --}}
                 </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a @class(['nav-item nav-link quiny ', 'active' => Route::is('home')]) href="{{ route('home') }}">Home</a>
-                        <a @class(['nav-item nav-link quiny ', 'active' => Route::is('whatIs')]) href="{{ route('whatIs') }}">What is Quiny?</a>
-                        <a @class(['nav-item nav-link quiny ', 'active' => Route::is('products')]) href="{{ route('products') }}">Products</a>
-                        {{-- <a href="#technical" class="nav-item nav-link quiny">Technical specifications</a> --}}
-                        <a @class(['nav-item nav-link quiny ', 'active' => Route::is('certifications')]) href="{{ route('certifications') }}">Certifications</a>
-                        <a @class(['nav-item nav-link quiny ', 'active' => Route::is('aboutUs')]) href="{{ route('aboutUs') }}">About Us</a>
-                        <a @class(['nav-item nav-link quiny ', 'active' => Route::is('contactUs')]) href="{{ route('contactUs') }}">Contact Us</a>
+                        <a class="nav-item nav-link" href="#what-is"><b>What is ?</b></a>
+                        <a class="nav-item nav-link" href="#products"><b>Products</b></a>
+                        <a class="nav-item nav-link" href="#certifications"><b>Certifications</b></a>
+                        <a class="nav-item nav-link" href="#about-us"><b>About Us</b></a>
+                        <a class="nav-item nav-link" href="#contact-us"><b>Contact Us</b></a>
                     </div>
                 </div>
             </nav>
@@ -124,6 +112,32 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('sitio/js/main.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+
+                sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+
+                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+                });
+
+                navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.href.includes(current)) {
+                    link.classList.add('active');
+                }
+                });
+            });
+        });
+    </script>
 
     @yield('javascripts')
 </body>
