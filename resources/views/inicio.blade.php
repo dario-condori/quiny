@@ -216,7 +216,7 @@
         </div>
     </section>
 
-    <section id="certifications">
+    <section id="about-us">
         <div class="container-fluid mb-5">
             <div class="container what">
                 <div class="row g-5 align-items-center">
