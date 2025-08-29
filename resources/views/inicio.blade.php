@@ -11,9 +11,6 @@
             <div class="container home">
                 <div class="row g-5 align-items-center">
                     <div class="col-md-5 text-center text-lg-start">
-                        <div class="col-12">
-                            <label id="estado" class="w-100 py-3 text-dark">&nbsp;</label>
-                        </div>
                         <h1 class="display-4 animated slideInRight text-center quiny">Quiny</h1>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             QUINY is a natural plant-based drink that not only delivers a delicious taste
