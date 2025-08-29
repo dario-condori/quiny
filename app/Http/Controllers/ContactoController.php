@@ -24,7 +24,12 @@ class ContactoController extends Controller
         $contacto->message = $request->message;
         $contacto->save();
 
-        return redirect()->route('contactUs')->with('estadoMensaje', 'Send menssage successful..!!!');
+        return redirect()->route('inicio')->with('estadoMensaje', 'Send menssage successful..!!!');
+        // return response()->json([
+        //     'status' => true,
+        //     'message' => 'Send menssage successful..!!!'
+        // ], 200);
+
     }
 
     public function mensajes()
