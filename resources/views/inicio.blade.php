@@ -242,9 +242,9 @@
                                 <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/gluten-free.png') }}" alt="gluten-free" width="100%">
                                 </div>
-                                {{-- <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/kf.png') }}" alt="kf" width="100%">
-                                </div> --}}
+                                </div>
                             </div>
                             <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
                                 <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
