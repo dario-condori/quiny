@@ -61,14 +61,20 @@
                         <label class="text-black mb-4 animated slideInRight text-center">
                             It supports <b>children's</b> growth, provides natural energy for <b>athletes</b>, and offers vital nutrients for expectant <b>mothers</b>.
                         </label>
+                        <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             The elderly benefit from its easy digestion and nourishment.
                         </label>
+                        <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             Suitable For anyone seeking a balanced lifestyle,
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             <b>QUINY</b> is a delicious, nutritious choice that aligns with health-conscious values, making healthy living enjoyable for everyone.
+                        </label>
+                        <label class="text-black mb-4 animated slideInRight text-center">
+                            &nbsp;<br><br><br><br><br><br>
+                            &nbsp;<br><br><br><br><br><br>
                         </label>
                     </div>
                 </div>
@@ -134,12 +140,13 @@
             </div>
         </div>
         <div class="container-fluid mb-5">
-            <div class="container products">
+            <div class="container products2">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7 text-center">
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/foto-product-2.png') }}" width="300">
                     </div>
                     <div class="col-lg-5 text-center text-lg-start">
+                        <br><br><br>
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-drink.png') }}" width="200">
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Nutrition information:</b> <br>
@@ -187,13 +194,18 @@
             </div>
         </div>
         <div class="container-fluid mb-5">
-            <div class="container products">
+            <div class="container products2">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7 text-center">
+                        <br><br>
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/foto-product-3.png') }}" width="400">
                     </div>
                     <div class="col-lg-5 text-center">
+                        <br><br><br>
                         <img class="img-fluid pulse infinite" src="{{ asset('sitio/img/foto-product-4.png') }}" width="400">
+                        <br><br>
+                        <br><br>
+                        <br><br>
                     </div>
                 </div>
             </div>
@@ -224,15 +236,15 @@
                         {{-- <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/certifications.jpg') }}" width="500"> --}}
                         <div class="col-md-8">
                             <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/green.png') }}" alt="green" width="100%">
                                 </div>
                                 <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/gluten-free.png') }}" alt="gluten-free" width="100%">
                                 </div>
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                {{-- <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/kf.png') }}" alt="kf" width="100%">
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
                                 <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
