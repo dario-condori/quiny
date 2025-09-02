@@ -233,33 +233,37 @@
                     </div>
                     <div class="col-lg-7 text-center">
                         <br><br><br>
-                        {{-- <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/certifications.jpg') }}" width="500"> --}}
                         <div class="col-md-8">
                             <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
                                 <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/green.png') }}" alt="green" width="100%">
                                 </div>
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/gluten-free.png') }}" alt="gluten-free" width="100%">
-                                </div>
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
-                                    <img src="{{ asset('sitio/img/certifications/kf.png') }}" alt="kf" width="100%">
                                 </div>
                             </div>
                             <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                    <img src="{{ asset('sitio/img/certifications/kf.png') }}" alt="kf" width="100%">
+                                </div>
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/label.png') }}" alt="vegan" width="100%">
                                 </div>
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                            </div>
+                            <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/food_international.png') }}" alt="food_international" width="100%">
                                 </div>
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/brcs.png') }}" alt="brcs" width="100%">
                                 </div>
                             </div>
                             <div class="col-md-12 text-center wow fadeIn d-flex" data-wow-delay="0.1s">
-                                <div class="btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
                                     <img src="{{ asset('sitio/img/certifications/ifs.png') }}" alt="ifs" width="100%">
+                                </div>
+                                <div class="col-sm-12 btn-square rounded-circle mx-auto mb-4" style="width: 120px; height: 120px;">
+                                    -
                                 </div>
                             </div>
                         </div>
@@ -318,7 +322,7 @@
                     <br><br><br><br>
                     <h2 class="animated slideInRight text-center" style="color: #f94f00;">If You Have Any Query, Please Contact Us</h2>
                     <div class="row g-5">
-                        <div class="col-lg-8 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="col-sm-12 col-md-8 wow fadeIn" data-wow-delay="0.1s">
                             <p class="mb-4">Send us your consultations in the following form.</p>
                             @if(session('estadoMensaje'))
                                 <p class="mb-4 text-success">{{session('estadoMensaje')}}</p>
@@ -327,31 +331,31 @@
                                 <form action="{{route('guardarMensaje')}}" method="POST">
                                     @csrf
                                     <div class="row g-3">
-                                        <div class="col-md-6">
+                                        <div class="col-sm-12 col-md-6">
                                             <div class="form-floating">
                                                 <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                                                 <label for="name">Your Name</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-sm-12 col-md-6">
                                             <div class="form-floating">
                                                 <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                                                 <label for="email">Your Email</label>
                                             </div>
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-sm-12 col-12">
                                             <div class="form-floating">
                                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                                                 <label for="subject">Subject</label>
                                             </div>
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-sm-12 col-12">
                                             <div class="form-floating">
                                                 <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
                                                 <label for="message">Message</label>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-sm-12 col-6">
                                             <button class="btn btn-warning w-100 py-3 text-dark" type="submit">Send Message</button>
                                         </div>
                                         {{-- <div class="col-12">
@@ -364,9 +368,9 @@
                         <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                             <div class="col-md-12 col-lg-12 wow fadeIn" data-wow-delay="0.3s">
                                 <h5 class="mb-4">Get In Touch</h5>
-                                <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, La Paz city, Bolivia</p>
-                                <p><i class="fa fa-phone-alt me-3"></i>+592 2245781</p>
-                                <p><i class="fa fa-envelope me-3"></i>info@email.com</p>
+                                <p><i class="fa fa-map-marker-alt me-3"></i>Via del Lauro, 920121 Milano MI, Italia</p>
+                                {{-- <p><i class="fa fa-phone-alt me-3"></i>+592 2245781</p> --}}
+                                <p><i class="fa fa-envelope me-3"></i>info@andeanfores.com</p>
                                 <div class="d-flex pt-2">
                                     <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>

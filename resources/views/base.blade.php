@@ -57,7 +57,7 @@
     <div class="container-fluid sticky-top" style="background-color: #fee6a4;">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
-                <a href="#home" class="navbar-brand">
+                <a href="/" class="navbar-brand">
                     <img src="{{ asset('sitio/img/logo-quiny.png') }}" width="120" alt="logo-quiny">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -89,7 +89,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="#home">Home</a>
+                            <a href="/">Home</a>
                             <a href="#what-is">What is</a>
                         </div>
                     </div>
