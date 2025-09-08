@@ -92,6 +92,7 @@
                     </div>
                     <div class="col-lg-5 text-center text-lg-start">
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-drink.png') }}" width="200">
+                        <br><br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Nutrition information:</b> <br>
                             Average nutritional values for 100 ml.
@@ -133,7 +134,7 @@
                             None.
                         </label>
                         <br>
-                        <a href="{{ asset('sitio/details/quiny-natural-flavor-white.pdf') }}" target="_blank" class="btn btn-outline-warning px-3">More details</a>
+                        {{-- <a href="{{ asset('sitio/details/quiny-natural-flavor-white.pdf') }}" target="_blank" class="btn btn-outline-warning px-3">More details</a> --}}
                         <br><br><br>
                     </div>
                 </div>
@@ -148,6 +149,7 @@
                     <div class="col-lg-5 text-center text-lg-start">
                         <br><br><br>
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-choco-drink.png') }}" width="200">
+                        <br><br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Nutrition information:</b> <br>
                             Average nutritional values for 100 ml.
@@ -189,6 +191,7 @@
                             <b>Allergens*:</b> <br>
                             None.
                         </label>
+                        <br><br><br>
                     </div>
                 </div>
             </div>
