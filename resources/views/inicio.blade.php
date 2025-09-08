@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-lg-5 text-center text-lg-start">
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            It supports natural <b>children's</b> growth, provides natural energy for <b>athletes</b>, and offers nutrients for expectant <b>mothers</b>
+                            It supports natural <b>children's</b> growth, provides natural energy for <b>athletes</b>, and offers nutrients for expectant <b>mothers</b>.
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
@@ -67,9 +67,7 @@
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            Suitable for anyone seeking a balanced lifestyle,
-                        </label>
-                        <label class="text-black mb-4 animated slideInRight text-center">
+                            Suitable for anyone seeking a balanced lifestyle, 
                             <b>QUINY</b> is a delicious, nutritious choice that aligns with health-conscious values, making healthy living enjoyable for everyone.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
