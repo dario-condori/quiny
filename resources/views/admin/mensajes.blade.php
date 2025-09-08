@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quiny - mensajes</title>
-</head>
-<body>
-    <table>
+@extends('base')
+
+@section('nombrePagina')
+    Quiny - mensajes
+@endsection
+
+@section('contenido')
+    {{-- home --}}
+    <section id="home">
+        <div class="container-fluid mb-5">
+            <div class="container home">
+                <div class="row g-5 align-items-center">
+                    <table>
         <tr>
             <td>Id</td>
             <td>Nombre</td>
@@ -29,5 +32,37 @@
             </tr>
         @endforeach
     </table>
-</body>
-</html>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@endsection
+
+@section('javascripts')
+    <script>
+        function enviarMensaje(){
+            $('#estado').html('Enviando mensaje...');
+            var datos = {
+                'name': $('#name').val(),
+                'email': $('#email').val(),
+                'subject': $('#subject').val(),
+                'message': $('#message').val(),
+                "_token": "{{ csrf_token() }}"
+            }
+            $.ajax({
+                url : "{{ route('guardarMensaje') }}",
+                data : JSON.stringify(datos),
+                type : 'POST',
+                contentType : 'application/json',
+                dataType : 'json',
+                success : function(resultado) {
+                    $('#estado').html(resultado.message);
+                },
+                error : function(xhr, status) {
+                    $('#estado').html('<div class="alert alert-soft-danger" role="alert">Error: No hay datos del certificado'+status+'</div>');
+                }
+            });
+        }
+    </script>
+@endsection
