@@ -101,33 +101,33 @@
                                 <tr>
                                     <td> Energy </td>
                                     <td> kJ/kcal </td>
-                                    <td>&nbsp;&nbsp; 210/50 </td>
+                                    <td>&nbsp;&nbsp; 167/40 </td>
                                 </tr>
                                 <tr>
                                     <td>Fat <br> of which saturates</td>
                                     <td class="text-center">g <br> g</td>
-                                    <td class="text-center">1,2 <br> 0,2</td>
+                                    <td class="text-center">1,3 <br> 0,1</td>
                                 </tr>
                                 <tr>
                                     <td>Carbohydrate <br> of which sugars</td>
                                     <td class="text-center">g <br> g</td>
-                                    <td class="text-center">9,0 <br> 3,7</td>
+                                    <td class="text-center">6,3 <br> 1,8</td>
                                 </tr>
                                 <tr>
                                     <td>Protein</td>
                                     <td class="text-center">g</td>
-                                    <td class="text-center">0,8</td>
+                                    <td class="text-center">0,80</td>
                                 </tr>
                                 <tr>
                                     <td>Salt</td>
                                     <td class="text-center">g</td>
-                                    <td class="text-center">0,09</td>
+                                    <td class="text-center">0,10</td>
                                 </tr>
                             </table>
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic sunflower oil, sea salt.
+                            Water, organic Quinoa (11%), organic cocoa poder (1%), organic sunflower oil, sea salt, natural flavor.
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Allergens*:</b> <br>
@@ -155,33 +155,33 @@
                                 <tr>
                                     <td> Energy </td>
                                     <td> kJ/kcal </td>
-                                    <td>&nbsp;&nbsp; 210/50 </td>
+                                    <td>&nbsp;&nbsp; 167/40 </td>
                                 </tr>
                                 <tr>
                                     <td>Fat <br> of which saturates</td>
                                     <td class="text-center">g <br> g</td>
-                                    <td class="text-center">1,2 <br> 0,2</td>
+                                    <td class="text-center">1,30 <br> 0,10</td>
                                 </tr>
                                 <tr>
                                     <td>Carbohydrate <br> of which sugars</td>
                                     <td class="text-center">g <br> g</td>
-                                    <td class="text-center">9,0 <br> 3,7</td>
+                                    <td class="text-center">6,30 <br> 1,80</td>
                                 </tr>
                                 <tr>
                                     <td>Protein</td>
                                     <td class="text-center">g</td>
-                                    <td class="text-center">0,8</td>
+                                    <td class="text-center">0,80</td>
                                 </tr>
                                 <tr>
                                     <td>Salt</td>
                                     <td class="text-center">g</td>
-                                    <td class="text-center">0,09</td>
+                                    <td class="text-center">0,10</td>
                                 </tr>
                             </table>
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic sunflower oil, sea salt.
+                            Water, organic Quinoa (11%), organic cocoa poder (1%), organic sunflower oil, sea salt, natural flavor.
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Allergens*:</b> <br>
