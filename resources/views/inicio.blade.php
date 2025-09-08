@@ -96,22 +96,21 @@
                             <b>Nutrition information:</b> <br>
                             Average nutritional values for 100 ml.
                         </label>
-                        {{-- <label class="text-black mb-4 animated slideInRight"> --}}
                             <table>
                                 <tr>
                                     <td> Energy </td>
                                     <td> kJ/kcal </td>
-                                    <td>&nbsp;&nbsp; 167/40 </td>
+                                    <td>&nbsp;&nbsp; 210/50 </td>
                                 </tr>
                                 <tr>
                                     <td>Fat <br> of which saturates</td>
                                     <td class="text-center">g <br> g</td>
-                                    <td class="text-center">1,3 <br> 0,1</td>
+                                    <td class="text-center">1,20 <br> 0,20</td>
                                 </tr>
                                 <tr>
                                     <td>Carbohydrate <br> of which sugars</td>
                                     <td class="text-center">g <br> g</td>
-                                    <td class="text-center">6,3 <br> 1,8</td>
+                                    <td class="text-center">9,00 <br> 3,70</td>
                                 </tr>
                                 <tr>
                                     <td>Protein</td>
@@ -121,18 +120,21 @@
                                 <tr>
                                     <td>Salt</td>
                                     <td class="text-center">g</td>
-                                    <td class="text-center">0,10</td>
+                                    <td class="text-center">0,09</td>
                                 </tr>
                             </table>
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic cocoa poder (1%), organic sunflower oil, sea salt, natural flavor.
+                            Water, organic Quinoa (11%), organic sunflower oil, sea salt, natural flavor.
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Allergens*:</b> <br>
                             None.
                         </label>
+                        <br>
+                        <a href="{{ asset('sitio/details/quiny-natural-flavor-white.pdf') }}" target="_blank" class="btn btn-outline-warning px-3">More details</a>
+                        <br><br><br>
                     </div>
                 </div>
             </div>
@@ -181,7 +183,7 @@
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic cocoa poder (1%), organic sunflower oil, sea salt, natural flavor.
+                            Water, organic Quinoa (11%), organic cocoa powder (1%), organic sunflower oil, sea salt, natural flavor.
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Allergens*:</b> <br>
