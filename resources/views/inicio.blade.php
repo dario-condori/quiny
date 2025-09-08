@@ -299,7 +299,7 @@
                     <div class="col-lg-7 text-center">
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/logo-andean.png') }}" width="300">
                         <br><br>
-                        <a href="http://www.andeanforest.com">
+                        <a href="https://andeanforest.com">
                             <img class="img-fluid" src="{{ asset('sitio/img/andeanforest.png') }}" width="300">
                         </a>
                     </div>
