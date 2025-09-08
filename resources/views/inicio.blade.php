@@ -63,12 +63,12 @@
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            The elderly benefit from its easy digestion and nourishment.
+                            The <b>elderly</b> benefit from its easy digestion and nourishment.
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             Suitable for anyone seeking a balanced lifestyle, 
-                            <b>QUINY</b> is a delicious, nutritious choice that aligns with health-conscious values, making healthy living enjoyable for everyone.
+                            <b>QUINY</b> is a delicious, nutritious choice that aligns with health-conscious values, making healthy living enjoyable for <b>everyone</b>.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             &nbsp;<br><br><br><br><br><br>
