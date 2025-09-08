@@ -11,10 +11,10 @@
             <div class="container home">
                 <div class="row g-5 align-items-center">
                     <div class="col-md-5 text-center text-lg-start">
-                        <h1 class="display-4 animated slideInRight text-center quiny">Quiny</h1>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            QUINY is a natural plant-based drink that not only delivers a delicious taste
-                            but also provides a rich source of essential nutrients, high-quality protein, minerals and essential amino acids.
+                            <img class="img-fluid" src="{{ asset('sitio/img/quiny.png') }}"  width="100"><br>
+                            QUINY is a natural, plant-based beverage that offers a delicious taste while providing 
+                            a rich source of essential nutrients, high-quality protein, minerals, and essential amino acids.
                         </label>
                     </div>
                     <div class="col-md-7 text-center">
@@ -53,13 +53,13 @@
         </div>
         <div class="container-fluid mb-5">
             <div class="container what">
-                <div class="row g-5 align-items-center">
+                <div class="row g-5 ">{{--align-items-center--}}
                     <div class="col-lg-7 text-center">
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/foto-what-is-2.png') }}" width="400">
                     </div>
                     <div class="col-lg-5 text-center text-lg-start">
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            It supports <b>children's</b> growth, provides natural energy for <b>athletes</b>, and offers vital nutrients for expectant <b>mothers</b>.
+                            It supports natural <b>children's</b> growth, provides natural energy for <b>athletes</b>, and offers nutrients for expectant <b>mothers</b>
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
@@ -67,7 +67,7 @@
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            Suitable For anyone seeking a balanced lifestyle,
+                            Suitable for anyone seeking a balanced lifestyle,
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             <b>QUINY</b> is a delicious, nutritious choice that aligns with health-conscious values, making healthy living enjoyable for everyone.
@@ -111,7 +111,7 @@
                                     <td class="text-center">1,2 <br> 0,2</td>
                                 </tr>
                                 <tr>
-                                    <td>Carbohidrate <br> of which sugars</td>
+                                    <td>Carbohydrate <br> of which sugars</td>
                                     <td class="text-center">g <br> g</td>
                                     <td class="text-center">9,0 <br> 3,7</td>
                                 </tr>
@@ -129,7 +129,7 @@
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic. sunflower oil, sea salt.
+                            Water, organic Quinoa (11%), organic sunflower oil, sea salt.
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Allergens*:</b> <br>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="col-lg-5 text-center text-lg-start">
                         <br><br><br>
-                        <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-drink.png') }}" width="200">
+                        <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-choco-drink.png') }}" width="200">
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Nutrition information:</b> <br>
                             Average nutritional values for 100 ml.
@@ -165,7 +165,7 @@
                                     <td class="text-center">1,2 <br> 0,2</td>
                                 </tr>
                                 <tr>
-                                    <td>Carbohidrate <br> of which sugars</td>
+                                    <td>Carbohydrate <br> of which sugars</td>
                                     <td class="text-center">g <br> g</td>
                                     <td class="text-center">9,0 <br> 3,7</td>
                                 </tr>
@@ -183,7 +183,7 @@
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic. sunflower oil, sea salt.
+                            Water, organic Quinoa (11%), organic sunflower oil, sea salt.
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
                             <b>Allergens*:</b> <br>
@@ -284,22 +284,20 @@
                         <br><br><br>
                         <h2 class="animated slideInRight text-center" style="color: #f94f00;">About us</h2>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            <b>Andean Forest Food Biotech S.R.L.</b> combines expertise, research and technological innovation, to craft products that
-                            stands out for its exceptional taste and health benefits.
+                            <b>Andean Forest Food Biotech S.R.L.</b> combines expertise, research and technological 
+                            innovation to craft products that stands out for its exceptional taste and health benefits.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            AFFB s.r.l. worked with organically grown quinoa from the Bolivian highlands.
+                            We empower indigenous families by offering fair prices and supporting sustainable, 
+                            ecofriendly farming practices that preserve their cultural heritage.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             The entire chain is controlled.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            We empower indigenous families by offering fair prices and supporting sustainable, ecofriendly farming practices that
-                            preserve their cultural heritage.
-                        </label>
-                        <label class="text-black mb-4 animated slideInRight text-center">
-                            Our commitment to traceability ensures that every step of our quinoa beverage's journey—from farm to table—is ethical,
-                            meeting the highest quality and safety standards. Beyond selling products.
+                            Our commitment to traceability ensures that every step of our quinoa beverage's 
+                            journey—from farm to table—is ethical, meeting the highest quality and safety 
+                            standards beyond selling products..
                         </label>
                     </div>
                     <div class="col-lg-7 text-center">
@@ -370,7 +368,7 @@
                                 <h5 class="mb-4">Get In Touch</h5>
                                 <p><i class="fa fa-map-marker-alt me-3"></i>Via del Lauro, 920121 Milano MI, Italia</p>
                                 {{-- <p><i class="fa fa-phone-alt me-3"></i>+592 2245781</p> --}}
-                                <p><i class="fa fa-envelope me-3"></i>info@andeanfores.com</p>
+                                <p><i class="fa fa-envelope me-3"></i>info@andeanforest.com</p>
                                 <div class="d-flex pt-2">
                                     <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
