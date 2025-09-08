@@ -282,7 +282,7 @@
                         <br><br><br>
                         <h2 class="animated slideInRight text-center" style="color: #f94f00;">About us</h2>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            <b>Andean Forest Food Biotech S.R.L.</b> combines expertise, research and technological 
+                            <b>Andean Forest Food Biotech S.r.l.</b> combines expertise, research and technological 
                             innovation to craft products that stands out for its exceptional taste and health benefits.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
