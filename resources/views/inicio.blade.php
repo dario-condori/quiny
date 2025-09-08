@@ -290,9 +290,7 @@
                             ecofriendly farming practices that preserve their cultural heritage.
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            The entire chain is controlled.
-                        </label>
-                        <label class="text-black mb-4 animated slideInRight text-center">
+                            The entire chain is controlled. 
                             Our commitment to traceability ensures that every step of our quinoa beverage's 
                             journey—from farm to table—is ethical, meeting the highest quality and safety 
                             standards beyond selling products..
