@@ -11,10 +11,10 @@ class ContactoController extends Controller
     public function guardarMensaje(Request $request)
     {
         $request->validate([
-            'name'=>'required|string',
+            'name'=>'required|string|max:100|not_regex:/<script>|<\/script>|href=/i',
             'email'=>'required|email',
-            'subject'=>'required|string',
-            'message'=>'required|string',
+            'subject'=>'required|string|max:250|not_regex:/<script>|<\/script>|href=/i',
+            'message'=>'required|string|max:1000|not_regex:/<script>|<\/script>|href=/i',
         ]);
 
         $contacto = new Contacto();
