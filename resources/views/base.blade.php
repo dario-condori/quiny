@@ -77,8 +77,8 @@
                             </a>
                             <div class="dropdown-menu bg-light mt-2">
                                 <a href="{{ route('language',['lang'=>'en']) }}" class="dropdown-item">English</a>
-                                <a href="{{ route('language',['lang'=>'es']) }}" class="dropdown-item">Español</a>
-                                <a href="{{ route('language',['lang'=>'it']) }}" class="dropdown-item">Italiano</a>
+                                <a href="{{ route('language',['lang'=>'es']) }}" class="dropdown-item">Spanish</a>
+                                <a href="{{ route('language',['lang'=>'it']) }}" class="dropdown-item">Italian</a>
                                 {{-- <a href="{{ route('language',['lang'=>'fr']) }}" class="dropdown-item">Frances</a>
                                 <a href="{{ route('language',['lang'=>'pr']) }}" class="dropdown-item">Portugues</a> --}}
                             </div>
