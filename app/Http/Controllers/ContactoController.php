@@ -35,7 +35,8 @@ class ContactoController extends Controller
     public function mensajes()
     {
         $mensajes = Contacto::all();
-        return view('admin.mensajes', compact('mensajes'));
+        // return view('admin.mensajes', compact('mensajes'));
+        return view('mensajes', compact('mensajes'));
     }
 
 }
