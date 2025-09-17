@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_','-', app()->getlocale()) }}">
 
 <head>
     <meta charset="utf-8">
@@ -65,11 +65,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-item nav-link" href="#what-is"><b>What is ?</b></a>
-                        <a class="nav-item nav-link" href="#products"><b>Products</b></a>
-                        <a class="nav-item nav-link" href="#certifications"><b>Certifications</b></a>
-                        <a class="nav-item nav-link" href="#about-us"><b>About Us</b></a>
-                        <a class="nav-item nav-link" href="#contact-us"><b>Contact Us</b></a>
+                        <a class="nav-item nav-link" href="#what-is"><b>{!! __('pagina.menu.whatis') !!}</b></a>
+                        <a class="nav-item nav-link" href="#products"><b>{!! __('pagina.menu.products') !!}</b></a>
+                        <a class="nav-item nav-link" href="#certifications"><b>{!! __('pagina.menu.certifications') !!}</b></a>
+                        <a class="nav-item nav-link" href="#about-us"><b>{!! __('pagina.menu.aboutus') !!}</b></a>
+                        <a class="nav-item nav-link" href="#contact-us"><b>{!! __('pagina.menu.contactus') !!}</b></a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                <img src="{{asset('sitio/img/world.png')}}" alt="Language" width="20px">
+                                {{ session()->get('locale') }}
+                            </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="{{ route('language',['lang'=>'en']) }}" class="dropdown-item">English</a>
+                                <a href="{{ route('language',['lang'=>'es']) }}" class="dropdown-item">Español</a>
+                                <a href="{{ route('language',['lang'=>'it']) }}" class="dropdown-item">Italiano</a>
+                                {{-- <a href="{{ route('language',['lang'=>'fr']) }}" class="dropdown-item">Frances</a>
+                                <a href="{{ route('language',['lang'=>'pr']) }}" class="dropdown-item">Portugues</a> --}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>

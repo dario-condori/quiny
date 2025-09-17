@@ -13,8 +13,7 @@
                     <div class="col-md-5 text-center text-lg-start">
                         <label class="text-black mb-4 animated slideInRight text-center">
                             <img class="img-fluid" src="{{ asset('sitio/img/quiny.png') }}"  width="100"><br>
-                            QUINY is a natural, plant-based beverage that offers a delicious taste while providing 
-                            a rich source of essential nutrients, high-quality protein, minerals, and essential amino acids.
+                            {!! __('pagina.home') !!}
                         </label>
                     </div>
                     <div class="col-md-7 text-center">
@@ -32,17 +31,17 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 text-center text-lg-start">
                         <br><br><br><br>
-                        <h4 class="animated slideInRight" style="color: #f94f00;">What is Quiny?</h4>
+                        <h4 class="animated slideInRight" style="color: #f94f00;">
+                            {!! __('pagina.whatis') !!}
+                        </h4>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            <b>QUINY</b> is a natural plant-based drink, Crafted from high-quality quinoa, making it a complete protein and
-                            an ideal choice for those seeking a nutritious and balanced diet.
+                            {!! __('pagina.whatis.primero') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            <b>QUINY</b> is perfect for health-conscious consumers who prioritize nutrition from organic quinoa as a superfood, seek a
-                            sugar-free and gluten-free alternative, and a high vegan protein content Free from allergens and artificial additives.
+                            {!! __('pagina.whatis.segundo') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            <b>QUINY</b> is more than just a drink. It’s a premium experience designed with innovation and sustainability.
+                            {!! __('pagina.whatis.tercero') !!}
                         </label>
                     </div>
                     <div class="col-lg-7 text-center">
@@ -59,16 +58,15 @@
                     </div>
                     <div class="col-lg-5 text-center text-lg-start">
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            It supports natural <b>children's</b> growth, provides natural energy for <b>athletes</b>, and offers nutrients for expectant <b>mothers</b>.
+                            {!! __('pagina.whatis.cuarto') !!}
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            The <b>elderly</b> benefit from its easy digestion and nourishment.
+                            {!! __('pagina.whatis.quinto') !!}
                         </label>
                         <br>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            Suitable for anyone seeking a balanced lifestyle, 
-                            <b>QUINY</b> is a delicious, nutritious choice that aligns with health-conscious values, making healthy living enjoyable for <b>everyone</b>.
+                            {!! __('pagina.whatis.sexto') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
                             &nbsp;<br><br><br><br><br><br>
@@ -86,7 +84,7 @@
             <div class="container products">
                 <div class="row g-5 align-items-center">
                     <br><br>
-                    <h2 class="animated slideInRight" style="color: #f94f00;">Products</h2>
+                    <h2 class="animated slideInRight" style="color: #f94f00;">{!! __('pagina.products') !!}</h2>
                     <div class="col-lg-7 text-center">
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/foto-product-1.png') }}" width="300">
                     </div>
@@ -94,44 +92,44 @@
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-drink.png') }}" width="200">
                         <br><br>
                         <label class="text-black mb-4 animated slideInRight">
-                            <b>Nutrition information:</b> <br>
-                            Average nutritional values for 100 ml.
+                            {!! __('pagina.products.info') !!} <br>
+                            {!! __('pagina.products.promedio') !!}
                         </label>
                             <table>
                                 <tr>
-                                    <td> Energy </td>
+                                    <td> {!! __('pagina.products.energia') !!} </td>
                                     <td> kJ/kcal </td>
                                     <td>&nbsp;&nbsp; 210/50 </td>
                                 </tr>
                                 <tr>
-                                    <td>Fat <br> of which saturates</td>
+                                    <td>{!! __('pagina.products.grasas') !!} <br> {!! __('pagina.products.grasas.detalle') !!}</td>
                                     <td class="text-center">g <br> g</td>
                                     <td class="text-center">1,20 <br> 0,20</td>
                                 </tr>
                                 <tr>
-                                    <td>Carbohydrate <br> of which sugars</td>
+                                    <td>{!! __('pagina.products.carbohidrato') !!} <br> {!! __('pagina.products.carbohidrato.detalle') !!}</td>
                                     <td class="text-center">g <br> g</td>
                                     <td class="text-center">9,00 <br> 3,70</td>
                                 </tr>
                                 <tr>
-                                    <td>Protein</td>
+                                    <td>{!! __('pagina.products.proteina') !!}</td>
                                     <td class="text-center">g</td>
                                     <td class="text-center">0,80</td>
                                 </tr>
                                 <tr>
-                                    <td>Salt</td>
+                                    <td>{!! __('pagina.products.sal') !!}</td>
                                     <td class="text-center">g</td>
                                     <td class="text-center">0,09</td>
                                 </tr>
                             </table>
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
-                            <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic sunflower oil, sea salt, natural flavor.
+                            {!! __('pagina.products.ingredientes') !!} <br>
+                            {!! __('pagina.products.ingredientes.contenido1') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
-                            <b>Allergens*:</b> <br>
-                            None.
+                            {!! __('pagina.products.alergenos') !!} <br>
+                            {!! __('pagina.products.alergenos.detalle') !!}
                         </label>
                         <br>
                         {{-- <a href="{{ asset('sitio/details/quiny-natural-flavor-white.pdf') }}" target="_blank" class="btn btn-outline-warning px-3">More details</a> --}}
@@ -151,45 +149,45 @@
                         <img class="img-fluid animated pulse infinite" src="{{ asset('sitio/img/quinoa-choco-drink.png') }}" width="200">
                         <br><br>
                         <label class="text-black mb-4 animated slideInRight">
-                            <b>Nutrition information:</b> <br>
-                            Average nutritional values for 100 ml.
+                            {!! __('pagina.products.info') !!} <br>
+                            {!! __('pagina.products.promedio') !!}
                         </label>
                         {{-- <label class="text-black mb-4 animated slideInRight"> --}}
                             <table>
                                 <tr>
-                                    <td> Energy </td>
+                                    <td> {!! __('pagina.products.energia') !!} </td>
                                     <td> kJ/kcal </td>
                                     <td>&nbsp;&nbsp; 167/40 </td>
                                 </tr>
                                 <tr>
-                                    <td>Fat <br> of which saturates</td>
+                                    <td>{!! __('pagina.products.grasas') !!} <br> {!! __('pagina.products.grasas.detalle') !!}</td>
                                     <td class="text-center">g <br> g</td>
                                     <td class="text-center">1,30 <br> 0,10</td>
                                 </tr>
                                 <tr>
-                                    <td>Carbohydrate <br> of which sugars</td>
+                                    <td>{!! __('pagina.products.carbohidrato') !!} <br> {!! __('pagina.products.carbohidrato.detalle') !!}</td>
                                     <td class="text-center">g <br> g</td>
                                     <td class="text-center">6,30 <br> 1,80</td>
                                 </tr>
                                 <tr>
-                                    <td>Protein</td>
+                                    <td>{!! __('pagina.products.proteina') !!}</td>
                                     <td class="text-center">g</td>
                                     <td class="text-center">0,80</td>
                                 </tr>
                                 <tr>
-                                    <td>Salt</td>
+                                    <td>{!! __('pagina.products.sal') !!}</td>
                                     <td class="text-center">g</td>
                                     <td class="text-center">0,10</td>
                                 </tr>
                             </table>
                         <br>
                         <label class="text-black mb-4 animated slideInRight">
-                            <b>Ingredients:</b> <br>
-                            Water, organic Quinoa (11%), organic cocoa powder (1%), organic sunflower oil, sea salt, natural flavor.
+                            {!! __('pagina.products.ingredientes') !!}: <br>
+                            {!! __('pagina.products.ingredientes.contenido2') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight">
-                            <b>Allergens*:</b> <br>
-                            None.
+                            {!! __('pagina.products.alergenos') !!} <br>
+                            {!! __('pagina.products.alergenos.detalle') !!}
                         </label>
                         <br><br><br>
                     </div>
@@ -222,15 +220,13 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 text-center text-lg-start">
                         <br><br><br>
-                        <h2 class="animated slideInRight text-center" style="color: #f94f00;">Certifications</h2>
+                        <h2 class="animated slideInRight text-center" style="color: #f94f00;">{!! __('pagina.certifications') !!}</h2>
                         <br><br>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            Our business model is built on sustainability and excellence, ensuring that
-                            every product meets the highest quality standards from its origin to international markets.
+                            {!! __('pagina.certifications.primero') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            Through strategic partnerships with an Italian-certified processing facility, we
-                            guarantee premium quality and food safety at every step.
+                            {!! __('pagina.certifications.segundo') !!}
                         </label>
                         <br><br>
                     </div>
@@ -285,20 +281,15 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 text-center text-lg-start">
                         <br><br><br>
-                        <h2 class="animated slideInRight text-center" style="color: #f94f00;">About us</h2>
+                        <h2 class="animated slideInRight text-center" style="color: #f94f00;">{!! __('pagina.aboutus') !!}</h2>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            <b>Andean Forest Food Biotech S.r.l.</b> combines expertise, research and technological 
-                            innovation to craft products that stands out for its exceptional taste and health benefits.
+                            {!! __('pagina.aboutus.primero') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            We empower indigenous families by offering fair prices and supporting sustainable, 
-                            ecofriendly farming practices that preserve their cultural heritage.
+                            {!! __('pagina.aboutus.segundo') !!}
                         </label>
                         <label class="text-black mb-4 animated slideInRight text-center">
-                            The entire chain is controlled. 
-                            Our commitment to traceability ensures that every step of our quinoa beverage's 
-                            journey—from farm to table—is ethical, meeting the highest quality and safety 
-                            standards beyond selling products..
+                            {!! __('pagina.aboutus.tercero') !!}
                         </label>
                     </div>
                     <div class="col-lg-7 text-center">
@@ -319,10 +310,10 @@
             <div class="container contact">
                 <div class="container" id="contact">
                     <br><br><br><br>
-                    <h2 class="animated slideInRight text-center" style="color: #f94f00;">If You Have Any Query, Please Contact Us</h2>
+                    <h2 class="animated slideInRight text-center" style="color: #f94f00;">{!! __('pagina.contactus') !!}</h2>
                     <div class="row g-5">
                         <div class="col-sm-12 col-md-8 wow fadeIn" data-wow-delay="0.1s">
-                            <p class="mb-4">Send us your consultations in the following form.</p>
+                            <p class="mb-4">{!! __('pagina.contactus.primero') !!}</p>
                             @if(session('estadoMensaje'))
                                 <p class="mb-4 text-success">{{session('estadoMensaje')}}</p>
                             @endif
@@ -333,29 +324,29 @@
                                         <div class="col-sm-12 col-md-6">
                                             <div class="form-floating">
                                                 <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                                <label for="name">Your Name</label>
+                                                <label for="name">{!! __('pagina.contactus.name') !!}</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-md-6">
                                             <div class="form-floating">
                                                 <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                                <label for="email">Your Email</label>
+                                                <label for="email">{!! __('pagina.contactus.email') !!}</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-12">
                                             <div class="form-floating">
                                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                                <label for="subject">Subject</label>
+                                                <label for="subject">{!! __('pagina.contactus.subject') !!}</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-12">
                                             <div class="form-floating">
                                                 <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
-                                                <label for="message">Message</label>
+                                                <label for="message">{!! __('pagina.contactus.message') !!}</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12 col-6">
-                                            <button class="btn btn-warning w-100 py-3 text-dark" type="submit">Send Message</button>
+                                            <button class="btn btn-warning w-100 py-3 text-dark" type="submit">{!! __('pagina.contactus.send') !!}</button>
                                         </div>
                                         {{-- <div class="col-12">
                                             <label id="estado" class="w-100 py-3 text-dark">-</label>
@@ -366,7 +357,7 @@
                         </div>
                         <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                             <div class="col-md-12 col-lg-12 wow fadeIn" data-wow-delay="0.3s">
-                                <h5 class="mb-4">Get In Touch</h5>
+                                <h5 class="mb-4">{!! __('pagina.contactus.segundo') !!}</h5>
                                 <p><i class="fa fa-map-marker-alt me-3"></i>Via del Lauro, 920121 Milano MI, Italia</p>
                                 {{-- <p><i class="fa fa-phone-alt me-3"></i>+592 2245781</p> --}}
                                 <p><i class="fa fa-envelope me-3"></i>info@andeanforest.com</p>
